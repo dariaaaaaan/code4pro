@@ -18,6 +18,10 @@ gem 'devise', '~> 3.5.1'
 gem 'toastr-rails'
 gem 'mandrill-api', '1.0.52', require: 'mandrill'
 
+
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
+
 group :development, :test do
   
   gem 'byebug'
