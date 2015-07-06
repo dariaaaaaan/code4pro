@@ -27,6 +27,8 @@ gem 'omniauth-github'
 gem 'activeadmin', github: 'activeadmin'
 gem 'active_skin'
 
+gem 'paperclip', '~> 4.3.0'
+
 group :development, :test do
   
   gem 'byebug'
